@@ -2,15 +2,38 @@
 <html>
   <head>
     <style>
-      ul#menu li {
+    header{
+    background-color : Grey;
+    }
+    ul#menu a{
+ 	   float: left;
+	 	 padding: 10px;
+			width: 20%; 
+	 	 text-align: center;
+         background-color : Grey;
+         text-decoration: none;
+         margin-left:25px;
+    }
+    ul#menu li {
         display: inline;
-        font-size: 40px;
-        text-align: justify;
-      }
+        font-size: 45px;
+        text-align:center;
+       }
+     ul#menu a:hover {
+  	background-color: yellow;
+    color:black;
+    border-style: inset;
+    text-decoration: underline;
+	}
+    section
+    {
+    	background-color : #DBF9FC;
+    }
     </style>
   </head>
   <body>
-    <ul id="menu">
+  	<header  >
+    	<ul id="menu">
       <li>
         <a href="#Logo">Logo</a>
         &nbsp;
@@ -25,15 +48,17 @@
       </li>
       <li>
         <a href="#contact">Contact</a>
-        &nbsp;
+        
       </li>
     </ul>
     <br><br>
-
+    </header>
+    
+	<section>
     <img
       src="https://assets.website-files.com/61129bb2ecedf803564c68ec/6112af58d6338c4181aaed8c_hero-image-personal-x-template.png"
       alt="Smiley face"
-      style="float: right; width: 680px; height: 720px"
+      style="float: right; width: 40%"
     />
     <br /><br /><br /><br /><br /><br /><br /><br /><br />
     <h1 style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: 50px;">Hey, I’m Sushant Mishra</h1>
@@ -78,5 +103,6 @@
         <button>More About Me</button>
       </p>
     </div>
+    </section>
   </body>
 </html>
